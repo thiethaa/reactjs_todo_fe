@@ -3,7 +3,7 @@ import {Button} from 'react-bootstrap';
 
 export default class TodoList extends Component {
     render() {
-        const {id, title,date,time,complete} = this.props.todo
+        const {id,title,date,time,complete} = this.props.todo
 
         const style ={
             textDecoration : (complete)? 'line-through':'none',
@@ -19,6 +19,10 @@ export default class TodoList extends Component {
             background : (complete)? 'grey' :'green',
             border :'none'
         }
+        const checkBtn2 ={
+            background : (complete)? 'red' :'grey',
+            border :'none'
+        }
 
         return (
             <div>
@@ -30,8 +34,8 @@ export default class TodoList extends Component {
                     <th style ={style2}>Time</th>
                     <td style ={style}>{time}</td>
                     <td>
-                    <Button style={checkBtn} type="submit"  variant="success" size="sm" onClick={this.props.completeTodo.bind(this,id)}><i className="fas fa-check-square"></i></Button>
-                    <Button type="submit" variant="danger" size="sm" onClick={this.props.deleteTodo.bind(this,id)} ><i className="fas fa-trash-alt"></i></Button>
+                    <Button style={checkBtn} disabled ={(complete)} type="submit"  variant="success" size="sm" onClick={this.props.completeTodo.bind(this,id)}><i className="fas fa-check-square"></i></Button>
+                    <Button style={checkBtn2} disabled ={(!complete)} type="submit" variant="danger" size="sm" onClick={this.props.deleteTodo.bind(this,id)} ><i className="fas fa-trash-alt"></i></Button>
                     </td>
                 </tbody>
             </div>
