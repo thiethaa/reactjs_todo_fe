@@ -73,7 +73,7 @@ export default class AddTodo extends Component {
                 <Form onSubmit={this.submit}>
                     <Card.Body style={style} >
                         <Form.Group as={Row}>
-                        <Form.Label column sm="2">Name</Form.Label>
+                        <Form.Label column sm="2">Title</Form.Label>
                         <Col sm="10">
                             <Form.Control autoComplete="off" size="sm" type="text" id="title" name="title" value={title} onChange={this.textChange}  placeholder="Enter New Todo" required/>
                         </Col>
