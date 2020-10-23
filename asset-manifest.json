@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.74dd6135.chunk.css",
-    "main.js": "/static/js/main.dbc4ad76.chunk.js",
-    "main.js.map": "/static/js/main.dbc4ad76.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5c8f0960.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5c8f0960.js.map",
-    "static/css/2.01cf8727.chunk.css": "/static/css/2.01cf8727.chunk.css",
-    "static/js/2.51e25488.chunk.js": "/static/js/2.51e25488.chunk.js",
-    "static/js/2.51e25488.chunk.js.map": "/static/js/2.51e25488.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.4d7971d4d1f6bd6ea0619f58f28b234d.js": "/precache-manifest.4d7971d4d1f6bd6ea0619f58f28b234d.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.01cf8727.chunk.css.map": "/static/css/2.01cf8727.chunk.css.map",
-    "static/css/main.74dd6135.chunk.css.map": "/static/css/main.74dd6135.chunk.css.map",
-    "static/js/2.51e25488.chunk.js.LICENSE.txt": "/static/js/2.51e25488.chunk.js.LICENSE.txt",
-    "static/media/all.min.css": "/static/media/fa-solid-900.8e1ed89b.woff2"
+    "main.css": "/reactjs_todo_fe/static/css/main.74dd6135.chunk.css",
+    "main.js": "/reactjs_todo_fe/static/js/main.9853b93f.chunk.js",
+    "main.js.map": "/reactjs_todo_fe/static/js/main.9853b93f.chunk.js.map",
+    "runtime-main.js": "/reactjs_todo_fe/static/js/runtime-main.c728dd5d.js",
+    "runtime-main.js.map": "/reactjs_todo_fe/static/js/runtime-main.c728dd5d.js.map",
+    "static/css/2.0411dfad.chunk.css": "/reactjs_todo_fe/static/css/2.0411dfad.chunk.css",
+    "static/js/2.51e25488.chunk.js": "/reactjs_todo_fe/static/js/2.51e25488.chunk.js",
+    "static/js/2.51e25488.chunk.js.map": "/reactjs_todo_fe/static/js/2.51e25488.chunk.js.map",
+    "index.html": "/reactjs_todo_fe/index.html",
+    "precache-manifest.4dda1be7134552d7cee72cdad39a2955.js": "/reactjs_todo_fe/precache-manifest.4dda1be7134552d7cee72cdad39a2955.js",
+    "service-worker.js": "/reactjs_todo_fe/service-worker.js",
+    "static/css/2.0411dfad.chunk.css.map": "/reactjs_todo_fe/static/css/2.0411dfad.chunk.css.map",
+    "static/css/main.74dd6135.chunk.css.map": "/reactjs_todo_fe/static/css/main.74dd6135.chunk.css.map",
+    "static/js/2.51e25488.chunk.js.LICENSE.txt": "/reactjs_todo_fe/static/js/2.51e25488.chunk.js.LICENSE.txt",
+    "static/media/all.min.css": "/reactjs_todo_fe/static/media/fa-solid-900.8e1ed89b.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.5c8f0960.js",
-    "static/css/2.01cf8727.chunk.css",
+    "static/js/runtime-main.c728dd5d.js",
+    "static/css/2.0411dfad.chunk.css",
     "static/js/2.51e25488.chunk.js",
     "static/css/main.74dd6135.chunk.css",
-    "static/js/main.dbc4ad76.chunk.js"
+    "static/js/main.9853b93f.chunk.js"
   ]
 }
