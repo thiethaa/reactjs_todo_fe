@@ -2,7 +2,7 @@
   "name": "todos_app",
   "version": "0.1.0",
   "private": true,
-  "homepages":" https://thiethaa.github.io/reactjs_todo_fe/",
+  "homepage":"https://thiethaa.github.io/reactjs_todo_fe/.",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
